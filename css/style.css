@@ -13,3 +13,43 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* utilities classes are here */
+.container{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--deep-black);
+}
+ul li{
+    list-style: none;
+}
+
+
+/* var are uses here  */
+:root{
+    --deep-black: #3a3a3a;
+}
+
+/* main css are here  */
+
+.header-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: center
+}
+.menu-items li{
+    margin-left: 25px;
+}
+
