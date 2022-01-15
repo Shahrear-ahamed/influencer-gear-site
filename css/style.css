@@ -295,7 +295,17 @@ ul li {
 /* #################################
 ######## add media query ########
 ################################# */
-@media (min-width:778px) and (max-width:980px){
+@media (min-width:981px) and (max-width:1119px) {
+    .hero-info h1 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+    .hero-photo img{
+        width: 100%;
+    }
+}
+
+@media (min-width:790px) and (max-width:980px){
     .logo .logo-name{
         font-size: 26px;
     }
@@ -326,8 +336,7 @@ ul li {
     }
 
     .hero-photo img{
-        height: 270px;
-        width: 300px;
+        width: 100%;
     }
 
     .products{
@@ -365,6 +374,42 @@ ul li {
 
 @media (min-width:481px) and (max-width:789px){
     
+
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo .logo-name {
+        font-size: 18px;
+    }
+    .menu-items li a {
+        padding: 10px;
+    }
+    .hero-info,
+    .buying-tips{
+        order: 2;
+        padding-right: 0;
+        margin-right: 0px;
+    }
+    .hero-info h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .hero-info p {
+        font-size: 14px;
+        margin: 12px 0;
+    }
+    .hero-photo img {
+        width: 100%;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tech-photo img{
+        padding-bottom: 20px;
+        width: 500px;
+    }
 }
 
 
