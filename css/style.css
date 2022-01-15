@@ -86,7 +86,7 @@ ul li {
 .menu-items li a {
   display: inline-block;
   padding: 10px 0 10px 30px;
-  color: var(--dark-pink);
+  color: var(--black);
 }
 
 /* first section are here  */
