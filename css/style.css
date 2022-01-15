@@ -20,13 +20,15 @@ body{
     --deep-black: #3a3a3a;
     --white: #fff;
     --dark-pink:#E02C6D;
+    --deep-yellow:#FFC014;
+    --gray: gray;
 }
 
 
 /* utilities classes are here */
 .container{
     max-width: 1200px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -55,6 +57,8 @@ ul li{
 }
 
 
+
+
 /* main css are here  */
 
 .header-style{
@@ -73,6 +77,9 @@ ul li{
 
 
 /* first section are here  */
+.hero-section{
+    padding: 50px 0;
+}
 
 .hero-info{
     margin-right: 100px;
@@ -96,4 +103,94 @@ ul li{
     background-image: url(/images/medias/Circle\ design.svg);
     background-repeat: no-repeat;
     background-size: 100%;
+    padding-bottom: 20px;
 }
+
+
+
+
+/* product section are here  */
+.product-section{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.section-title{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* product section card are here  */
+.product-card{
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 2px rgba(128, 128, 128, 0.3);
+}
+
+.product-card img{
+    width: 100%;
+}
+
+.product-title{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.product-price{
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.product-rating{
+    display: flex;
+    align-items: center;
+}
+.filled{
+   color: var(--deep-yellow); 
+   font-size: 12px;
+}
+
+.product-rating span{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-disc{
+    font-size: 14px;
+    color: var(--gray);
+    padding-right: 2em;
+}
+
+
+.more-product{
+    text-align: right;
+}
+
+.more-product a{
+    font-weight: 500;
+    color: var(--dark-pink);
+}
+
+.more-product i{
+    margin-left: 5px;
+}
+
+/* product section are end here  */
+
+
+
