@@ -286,3 +286,18 @@ ul li {
   background-color: var(--blue);
   border-radius: 50px;
 }
+
+
+
+
+
+
+/* #################################
+######## add media query ########
+################################# */
+
+@media (max-width:900px){
+    .logo .logo-name{
+        font-size: 26px;
+    }
+}
